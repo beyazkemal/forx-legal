@@ -4,6 +4,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZN1CRK79D8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZN1CRK79D8');
+  </script>
+
   <title>FORX Race Tracker — Hyrox & Functional Fitness Race Timer</title>
   <meta name="description" content="FORX is the ultimate Hyrox race tracker app. Track every station split, monitor your pace, and analyze your race performance. Available on iPhone and Apple Watch.">
   <meta name="keywords" content="hyrox tracker, hyrox race tracker, hyrox app, workout tracker, split timer, stations timer, functional fitness tracker, race timer, FORX">
@@ -733,7 +742,7 @@
 <!-- NAV -->
 <nav>
   <a href="/" class="nav-logo">FOR<span>X</span></a>
-  <a href="https://apps.apple.com/tr/app/forx-race-tracker/id6772612897?l=tr" class="nav-cta" target="_blank" rel="noopener">
+  <a href="https://apps.apple.com/tr/app/forx-race-tracker/id6772612897?l=tr" class="nav-cta" target="_blank" rel="noopener" data-ga-location="nav">
     <i class="fa-brands fa-apple" style="font-size:1.1rem;"></i>
     Download Free
   </a>
@@ -776,7 +785,7 @@
         Track every station, every split, every second. FORX is the ultimate race tracker for Hyrox athletes — built for iPhone and Apple Watch.
       </p>
       <div class="hero-actions">
-        <a href="https://apps.apple.com/tr/app/forx-race-tracker/id6772612897?l=tr" class="btn-primary" target="_blank" rel="noopener">
+        <a href="https://apps.apple.com/tr/app/forx-race-tracker/id6772612897?l=tr" class="btn-primary" target="_blank" rel="noopener" data-ga-location="hero">
           <i class="fa-brands fa-apple" style="font-size:1.6rem; color:#000;"></i>
           <div class="btn-primary-inner">
             <span class="btn-primary-sub">Download on the</span>
@@ -980,7 +989,7 @@
     <h2 class="section-title reveal reveal-delay-1">YOUR FIRST RACE<br>IS <span style="color:var(--orange)">WAITING.</span></h2>
     <p class="section-sub reveal reveal-delay-2">Download FORX free. Track your first Hyrox race today and start building your PR history.</p>
     <div class="reveal reveal-delay-3">
-      <a href="https://apps.apple.com/tr/app/forx-race-tracker/id6772612897?l=tr" class="app-store-btn" target="_blank" rel="noopener">
+      <a href="https://apps.apple.com/tr/app/forx-race-tracker/id6772612897?l=tr" class="app-store-btn" target="_blank" rel="noopener" data-ga-location="cta_banner">
         <i class="fa-brands fa-apple" style="font-size:2rem; color:#000;"></i>
         <div class="app-store-btn-text">
           <div class="app-store-btn-sub">Download on the</div>
@@ -1021,6 +1030,14 @@
   }, { threshold: 0.12 });
 
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  document.querySelectorAll('[data-ga-location]').forEach(el => {
+    el.addEventListener('click', () => {
+      if (typeof gtag === 'function') {
+        gtag('event', 'app_store_click', { link_location: el.dataset.gaLocation });
+      }
+    });
+  });
 </script>
 
 </body>
