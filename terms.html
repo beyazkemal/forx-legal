@@ -3,35 +3,78 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZN1CRK79D8"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-ZN1CRK79D8');
-  </script>
-  <title>FORX Terms of Use</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; max-width: 760px; margin: 40px auto; padding: 0 20px; color: #171717; }
-    h1, h2 { line-height: 1.25; }
-    a { color: #0b63ce; }
-  </style>
+  <meta name="theme-color" content="#17191e">
+  <title>Terms of Use — FORX</title>
+  <meta name="description" content="Terms of use for FORX, including FORX PRO subscription terms and health and fitness use.">
+  <link rel="canonical" href="https://forxrace.com/terms.html">
+  <link rel="icon" href="assets/app-icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <h1>FORX Terms of Use</h1>
-  <p><strong>Effective date:</strong> May 19, 2026</p>
-  <p>FORX uses Apple's Standard End User License Agreement unless a custom license is later added in App Store Connect. Apple's standard terms are available at <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">https://www.apple.com/legal/internet-services/itunes/dev/stdeula/</a>.</p>
+<body class="legal-body">
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <h2>FORX PRO Subscription Terms</h2>
-  <p>FORX PRO unlocks premium app features such as unlimited history, pacing strategy, and advanced race insights. Subscription products, prices, trial eligibility, renewal periods, and cancellation terms are shown by Apple in the purchase sheet before purchase.</p>
-  <p>Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. Payment is charged to the user's Apple account. Users can manage or cancel subscriptions in Apple account subscription settings.</p>
-  <p>Restore Purchases is available in the FORX app for users who need to recover an active entitlement on a device.</p>
+  <header class="legal-header">
+    <nav class="nav shell" aria-label="Legal navigation">
+      <a class="brand" href="index.html" aria-label="FORX home">
+        <img src="assets/app-icon.png" alt="" width="34" height="34">
+        <span>FORX</span>
+      </a>
+      <a class="button button-small button-light" href="index.html">Back to FORX</a>
+    </nav>
+  </header>
 
-  <h2>Health and Fitness Use</h2>
-  <p>FORX is a fitness tracking app. It does not provide medical advice, diagnosis, treatment, or emergency services. Users are responsible for training decisions and should consult a qualified professional for health concerns.</p>
+  <main class="legal-main" id="main">
+    <section class="legal-hero">
+      <div class="shell">
+        <span class="legal-meta">Effective May 19, 2026</span>
+        <h1>Terms of use.</h1>
+        <p>The subscription, fitness-use, and support terms that apply when you use FORX.</p>
+      </div>
+    </section>
 
-  <h2>Support</h2>
-  <p>For support, contact <a href="mailto:support@forxrace.com">support@forxrace.com</a> or visit <a href="support.html">FORX Support</a>.</p>
+    <article class="legal-content">
+      <section>
+        <h2>Apple Standard EULA</h2>
+        <p>FORX uses Apple’s Standard End User License Agreement unless a custom license is later added in App Store Connect. Apple’s standard terms are available at <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">apple.com/legal/internet-services/itunes/dev/stdeula</a>.</p>
+      </section>
+
+      <section>
+        <h2>FORX PRO subscription terms</h2>
+        <p>FORX PRO unlocks premium app features such as unlimited history, pacing strategy, and advanced race insights. Subscription products, prices, trial eligibility, renewal periods, and cancellation terms are shown by Apple in the purchase sheet before purchase.</p>
+        <p>Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period. Payment is charged to the user’s Apple account. Users can manage or cancel subscriptions in Apple account subscription settings.</p>
+        <p>Restore Purchases is available in the FORX app for users who need to recover an active entitlement on a device.</p>
+      </section>
+
+      <section>
+        <h2>Health and fitness use</h2>
+        <p>FORX is a fitness tracking app. It does not provide medical advice, diagnosis, treatment, or emergency services. Users are responsible for training decisions and should consult a qualified professional for health concerns.</p>
+      </section>
+
+      <section>
+        <h2>Support</h2>
+        <p>For support, contact <a href="mailto:support@forxrace.com">support@forxrace.com</a> or visit <a href="support.html">FORX Support</a>.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-bottom">
+      <p>© 2026 FORX Race Tracker.</p>
+      <p><a href="support.html">Support</a> · <a href="privacy.html">Privacy</a> · <button type="button" class="footer-button" data-cookie-settings>Cookie settings</button></p>
+    </div>
+  </footer>
+
+  <div class="cookie-banner" data-cookie-banner hidden>
+    <div>
+      <strong>Your choice, before analytics.</strong>
+      <p>FORX uses optional Google Analytics on this website. It stays off unless you allow it.</p>
+    </div>
+    <div class="cookie-actions">
+      <button type="button" class="button button-primary" data-cookie-accept>Allow analytics</button>
+      <button type="button" class="button button-ghost" data-cookie-reject>Not now</button>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
 </body>
 </html>

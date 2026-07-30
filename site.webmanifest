@@ -1,0 +1,16 @@
+{
+  "name": "FORX Race Tracker",
+  "short_name": "FORX",
+  "description": "Functional fitness race tracking for iPhone and Apple Watch.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#17191e",
+  "theme_color": "#17191e",
+  "icons": [
+    {
+      "src": "/assets/app-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

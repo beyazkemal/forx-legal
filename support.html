@@ -3,34 +3,101 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZN1CRK79D8"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-ZN1CRK79D8');
-  </script>
-  <title>FORX Support</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.6; max-width: 760px; margin: 40px auto; padding: 0 20px; color: #171717; }
-    h1, h2 { line-height: 1.25; }
-    a { color: #0b63ce; }
-  </style>
+  <meta name="theme-color" content="#17191e">
+  <title>Support — FORX</title>
+  <meta name="description" content="Help with FORX Health permissions, Apple Watch sync, local race history, iCloud, FORX PRO, purchases, and privacy controls.">
+  <link rel="canonical" href="https://forxrace.com/support.html">
+  <link rel="icon" href="assets/app-icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <h1>FORX Support</h1>
-  <p>For support, contact <a href="mailto:support@forxrace.com">support@forxrace.com</a>.</p>
+<body class="legal-body">
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <h2>Common Actions</h2>
-  <ul>
-    <li>Health access: manage permissions in Apple Health or iOS Settings.</li>
-    <li>iCloud sync: sign in to iCloud on the device and keep iCloud Drive/CloudKit access enabled. FORX remains usable in local mode when iCloud is unavailable.</li>
-    <li>FORX PRO: manage or cancel subscriptions from Apple account subscription settings. Use Restore Purchases inside FORX if an active subscription is not reflected in the app.</li>
-    <li>AI insights: turn AI insights on or off from Profile settings.</li>
-  </ul>
+  <header class="legal-header">
+    <nav class="nav shell" aria-label="Support navigation">
+      <a class="brand" href="index.html" aria-label="FORX home">
+        <img src="assets/app-icon.png" alt="" width="34" height="34">
+        <span>FORX</span>
+      </a>
+      <a class="button button-small button-light" href="index.html">Back to FORX</a>
+    </nav>
+  </header>
 
-  <h2>Privacy Requests</h2>
-  <p>FORX does not operate its own account or race-history server. Race history is stored locally and may sync through your private Apple iCloud account when enabled. You can delete local race history in the app and manage iCloud data through Apple account or device settings.</p>
+  <main class="legal-main" id="main">
+    <section class="legal-hero">
+      <div class="shell">
+        <span class="legal-meta">FORX 1.0.2 · Build 1</span>
+        <h1>How can we help?</h1>
+        <p>For direct support, email <a href="mailto:support@forxrace.com">support@forxrace.com</a>. Include your iPhone and Watch models, OS versions, and FORX version when relevant—never include Health values or race splits.</p>
+      </div>
+    </section>
+
+    <article class="legal-content">
+      <section>
+        <h2>Common actions</h2>
+        <div class="support-grid">
+          <article class="support-card">
+            <h3>Health access</h3>
+            <p>Manage permissions in Apple Health or iOS Settings. FORX’s timer, segment results, and local history still work when Health access is denied.</p>
+          </article>
+          <article class="support-card">
+            <h3>Apple Watch</h3>
+            <p>Keep the iPhone and Watch paired and nearby. Open FORX on both devices before the session if race state is not visible on the Watch.</p>
+          </article>
+          <article class="support-card">
+            <h3>iCloud sync</h3>
+            <p>Sign in to iCloud and keep iCloud Drive or CloudKit access enabled. FORX remains usable in local mode when iCloud is unavailable.</p>
+          </article>
+          <article class="support-card">
+            <h3>FORX PRO</h3>
+            <p>Manage or cancel subscriptions from Apple account subscription settings. Use Restore Purchases inside FORX if an active subscription is not reflected.</p>
+          </article>
+          <article class="support-card">
+            <h3>Race history</h3>
+            <p>Finishing a session automatically saves it to local History and opens the race summary. There is no separate save step.</p>
+          </article>
+          <article class="support-card">
+            <h3>Privacy controls</h3>
+            <p>Anonymous Analytics, Crash Reports, and AI insights can be controlled independently inside FORX Settings.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Session types</h2>
+        <ul>
+          <li><strong>Full Simulation:</strong> 8 Run, 8 Transition, and 8 Station segments.</li>
+          <li><strong>Station Practice:</strong> one selected station with 1–10 attempts.</li>
+          <li><strong>Custom Simulation:</strong> a segment sequence built from runs, transitions, and stations.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Privacy requests</h2>
+        <p>FORX does not operate its own account or race-history server. Race history is stored locally and may sync through your private Apple iCloud account when enabled. You can delete local race history in the app and manage iCloud data through Apple account or device settings.</p>
+        <p>Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-bottom">
+      <p>© 2026 FORX Race Tracker.</p>
+      <p><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <button type="button" class="footer-button" data-cookie-settings>Cookie settings</button></p>
+    </div>
+  </footer>
+
+  <div class="cookie-banner" data-cookie-banner hidden>
+    <div>
+      <strong>Your choice, before analytics.</strong>
+      <p>FORX uses optional Google Analytics on this website. It stays off unless you allow it.</p>
+    </div>
+    <div class="cookie-actions">
+      <button type="button" class="button button-primary" data-cookie-accept>Allow analytics</button>
+      <button type="button" class="button button-ghost" data-cookie-reject>Not now</button>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
