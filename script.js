@@ -105,3 +105,87 @@ if ("IntersectionObserver" in window) {
 } else {
   revealElements.forEach((element) => element.classList.add("is-visible"));
 }
+
+const localePreferenceKey = "forx_locale";
+const localeRoots = {
+  en: "/",
+  de: "/de/",
+  fr: "/fr/",
+  "pt-BR": "/pt-br/",
+  tr: "/tr/"
+};
+
+function readLocalePreference() {
+  try {
+    return localStorage.getItem(localePreferenceKey);
+  } catch {
+    return null;
+  }
+}
+
+function storeLocalePreference(locale) {
+  try {
+    localStorage.setItem(localePreferenceKey, locale);
+  } catch {
+    // Keep the choice for this page view when browser storage is unavailable.
+  }
+}
+
+function detectLocale() {
+  const candidates = navigator.languages?.length ? navigator.languages : [navigator.language];
+  for (const candidate of candidates) {
+    const tag = (candidate || "").toLowerCase();
+    if (tag.startsWith("pt")) {
+      return "pt-BR";
+    }
+    const base = tag.split("-")[0];
+    if (base in localeRoots) {
+      return base;
+    }
+  }
+  return "en";
+}
+
+const pageLocale = document.documentElement.lang || "en";
+if (pageLocale === "en" && !readLocalePreference()) {
+  const detected = detectLocale();
+  if (detected !== "en") {
+    const currentPath = location.pathname.replace(/^\/+/, "");
+    location.replace(`${localeRoots[detected]}${currentPath}${location.search}${location.hash}`);
+  }
+}
+
+const langToggle = document.querySelector("[data-lang-toggle]");
+const langMenu = document.querySelector("[data-lang-menu]");
+
+function closeLangMenu() {
+  if (!langMenu || !langToggle) {
+    return;
+  }
+  langMenu.hidden = true;
+  langToggle.setAttribute("aria-expanded", "false");
+}
+
+langToggle?.addEventListener("click", () => {
+  const shouldOpen = langMenu.hidden;
+  langMenu.hidden = !shouldOpen;
+  langToggle.setAttribute("aria-expanded", String(shouldOpen));
+});
+
+document.addEventListener("click", (event) => {
+  if (!event.target.closest("[data-lang-switch]")) {
+    closeLangMenu();
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeLangMenu();
+  }
+});
+
+document.querySelectorAll("[data-lang-menu] a").forEach((link) => {
+  link.addEventListener("click", () => {
+    storeLocalePreference(link.getAttribute("lang"));
+  });
+});

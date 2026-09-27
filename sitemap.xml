@@ -1,23 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://forxrace.com/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/de/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/fr/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/pt-br/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/tr/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/"/>
   </url>
   <url>
     <loc>https://forxrace.com/support.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/support.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/de/support.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/support.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/fr/support.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/support.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/pt-br/support.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/support.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/tr/support.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/support.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/support.html"/>
   </url>
   <url>
     <loc>https://forxrace.com/privacy.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/de/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/fr/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/pt-br/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/tr/privacy.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/privacy.html"/>
   </url>
   <url>
     <loc>https://forxrace.com/terms.html</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-09-27</lastmod>
     <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/terms.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/de/terms.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/terms.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/fr/terms.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/terms.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/pt-br/terms.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/terms.html"/>
+  </url>
+  <url>
+    <loc>https://forxrace.com/tr/terms.html</loc>
+    <lastmod>2026-09-27</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://forxrace.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://forxrace.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://forxrace.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://forxrace.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://forxrace.com/pt-br/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://forxrace.com/tr/terms.html"/>
   </url>
 </urlset>
